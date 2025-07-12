@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+.buttonsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.setGrid,
+.gridLines,
+.gridCleaner {
+    width: 125px;
+    padding: 15px;
+}
+
+.gridContainer {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    height: 650px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.divRow {
+    display: flex;
+    flex: auto;
+}
+
+.divColumn {
+    display: flex;
+    flex: auto;
+    border: 1px solid black;
+}
