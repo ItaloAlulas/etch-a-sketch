@@ -20,11 +20,14 @@ body {
     padding: 10px 0;
 }
 
-.setGrid,
-.gridLines,
-.gridCleaner {
+.gridButton {
     width: 125px;
     padding: 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
 }
 
 .gridContainer {
