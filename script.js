@@ -77,7 +77,7 @@ function getRandomColor(opacity) {
 
     return `rgb(${red}, ${green}, ${blue}, ${opacity}`;
 }
-let opacity = 0.1;
+let opacity = 0;
 
 // Random color button
 const randomColorButton = document.createElement("button");
@@ -139,3 +139,10 @@ function createGrid() {
 }
 // Generates the first grid
 createGrid();
+
+const mainContainer = document.createElement('div')
+mainContainer.classList.add('mainContainer')
+document.body.append(mainContainer)
+
+mainContainer.appendChild(buttonsContainer)
+mainContainer.appendChild(gridContainer)
